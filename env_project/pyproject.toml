@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "env-project"
+version = "0.1.0"
+description = ""
+authors = ["Zephyrus <zephyrus1175@yahoo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tiktoken = "^0.7.0"
+torch = "^2.4.1"
+numpy = "^2.1.1"
+transformers = "^4.44.2"
+datasets = "^3.0.0"
+requests = "^2.32.3"
+tqdm = "^4.66.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
