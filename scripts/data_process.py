@@ -39,7 +39,7 @@ def encode_data(FILE_PATH):
         print(f"[INFO] Encoded files already exist: {train_filename} and {val_filename}")
         return train_filename, val_filename
     
-    enc = tiktoken.encoding_for_model('gpt-2')
+    enc = tiktoken.get_encoding('cl100k_base') # gpt-3.5
     encode = lambda x: enc.encode(x)
     end_of_text = enc._special_tokens['<|endoftext|>']
     assert enc.name != 'gpt-2', "Encoding model is not GPT-2"
