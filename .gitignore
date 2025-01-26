@@ -1,3 +1,2 @@
 scripts/__pycache__
-env_project/tests/__pycache__/test_data_process.cpython-310-pytest-8.3.2.pyc
-env_project/tests/__pycache__/__init__.cpython-310.pyc
+venv_llm_mini/
